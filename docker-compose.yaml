@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7.2.3
+    ports:
+      - "6379:6379"
+
+  app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    depends_on:
+      - redis 
+    
+  celery:
+    build: .
+    volumes:
+      - ./src:/app/src
+    command: celery -A src.worker.consumer worker -l INFO -Q celery,celery:1,celery:2 -B
+    depends_on:
+      - redis
+
+  flower:
+    build: .
+    ports:
+      - 5555:5555
+    command: celery -A src.worker.consumer flower --port=5555
+    depends_on:
+      - redis

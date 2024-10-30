@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-test"
+version = "0.1.0"
+description = ""
+authors = ["jaehong kim <jaehong.kim@bankx.co.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+flower = "^2.0.1"
+celery = "^5.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

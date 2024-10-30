@@ -1,0 +1,58 @@
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:02:27,371"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:04:01,113"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:04:01,921"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:05:19,242"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:05:20,180"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:05:31,360"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:05:32,348"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:05:43,447"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:05:44,163"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:05:46,448"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:05:47,250"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:06:40,758"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:06:41,552"}
+{"logger": "root", "level": "ERROR", "message": "e: division by zero
+ traceback_str: Traceback (most recent call last):
+  File "C:\Users\temp\Desktop\poetry_test\src\main.py", line 60, in health_check
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+", "asctime": "2024-10-30 16:06:48,458"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:06:54,884"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:06:55,797"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:07:10,844"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:07:11,591"}
+{"logger": "root", "level": "ERROR", "message": "
+e: division by zero
+ traceback_str: Traceback (most recent call last):
+  File "C:\Users\temp\Desktop\poetry_test\src\main.py", line 60, in health_check
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+", "asctime": "2024-10-30 16:07:14,590"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:07:30,489"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:07:31,291"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:07:34,205"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 16:07:35,058"}
+{"logger": "root", "level": "ERROR", "message": "
+ e: division by zero
+ traceback_str: Traceback (most recent call last):
+  File "C:\Users\temp\Desktop\poetry_test\src\main.py", line 60, in health_check
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+", "asctime": "2024-10-30 16:07:35,994"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 16:09:15,894"}
+{"logger": "root", "level": "INFO", "message": "START FASTAPI", "asctime": "2024-10-30 22:30:33,089"}
+{"logger": "root", "level": "DEBUG", "message": "GET http://localhost:8000/docs's PROCESSING TIME >>> 0.0 SEC", "asctime": "2024-10-30 22:30:41,793"}
+{"logger": "root", "level": "DEBUG", "message": "GET http://localhost:8000/openapi.json's PROCESSING TIME >>> 0.0029993057250976562 SEC", "asctime": "2024-10-30 22:30:41,960"}
+{"logger": "root", "level": "ERROR", "message": "
+ e: division by zero
+ traceback_str: Traceback (most recent call last):
+  File "C:\Users\Hyeop\OneDrive\¹ÙÅÁ È­¸é\poetry_test\src\main.py", line 60, in health_check
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+", "asctime": "2024-10-30 22:30:44,497"}
+{"logger": "root", "level": "DEBUG", "message": "GET http://localhost:8000/'s PROCESSING TIME >>> 0.0019989013671875 SEC", "asctime": "2024-10-30 22:30:44,498"}
+{"logger": "root", "level": "INFO", "message": "STOP FASTAPI", "asctime": "2024-10-30 22:30:57,690"}
